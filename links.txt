@@ -1,0 +1,2 @@
+LDAP 
+https://social.technet.microsoft.com/wiki/contents/articles/8077.active-directory-ldap-ru-ru.aspx
