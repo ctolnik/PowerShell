@@ -20,6 +20,7 @@ In Defaults > Apperance change color theme
 
 6. Install Scoop 
 iwr -useb get.scoop.sh | iex
+
 scoop install curl sudo jq
 
 7. Git
@@ -35,9 +36,15 @@ nvim $PROFILE.CurrentUserCurrentHost
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
 10. Oh-my-posh
+
 Install-Module -Name posh-git -Scope CurrentUser -Force
+
 Install-Module -Name oh-my-posh -Scope CurrentUser -Force
+
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+
 Install-Module -Name z -Force
+
 Install-Module -Name PSReadline -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
 scoop install fzf
